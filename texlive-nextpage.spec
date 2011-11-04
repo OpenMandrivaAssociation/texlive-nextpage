@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/misc/nextpage.sty
+# catalog-date 2009-09-03 13:12:26 +0200
+# catalog-license lppl
+# catalog-version 1.1a
 Name:		texlive-nextpage
 Version:	1.1a
 Release:	1
@@ -36,6 +42,7 @@ page generated.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/nextpage/nextpage.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,3 +53,5 @@ page generated.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
