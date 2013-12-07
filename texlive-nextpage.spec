@@ -6,7 +6,7 @@
 # catalog-version 1.1a
 Name:		texlive-nextpage
 Version:	1.1a
-Release:	5
+Release:	6
 Summary:	Generalisations of the page advance commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc/nextpage.sty
