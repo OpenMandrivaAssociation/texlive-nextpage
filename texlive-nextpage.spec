@@ -1,6 +1,6 @@
 Name:		texlive-nextpage
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Generalisations of the page advance commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc/nextpage.sty
