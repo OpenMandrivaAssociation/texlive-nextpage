@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Generalisations of the page advance commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/misc/nextpage.sty
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/misc/nextpage.sty
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nextpage.r%{version}.tar.xz
 BuildArch:	noarch
